@@ -29,9 +29,28 @@ console.log(nomer);
 
 function mudarNome(individuo){ // nesse caso a funcao recebe uma copia pq a variavel ´um tipo primitivo 
                                 // em classe passa o valor original 
-    individuo.nome = 'sem nome'; 
+    individuo = 'sem nome'; 
 }
 
 // imprime ana 
 
 
+// para alterar o valor da variavel primitiva é com return, forçando a alteracao
+// assim: 
+// nomer = mudarNome(nomer);
+
+// function mudarNome(individuo){     
+//     return 'sem nome'; 
+// }
+
+
+
+
+// JavaScript possui sete tipos primitivos: 
+// String: Para texto.
+// Number: Para números inteiros e de ponto flutuante.
+// Boolean: Para valores lógicos true ou false.
+// Null: Representa intencionalmente a ausência de um valor.
+// Undefined: Indica que uma variável não recebeu um valor.
+// Symbol: Um valor único e imutável, introduzido no ECMAScript 6.
+// BigInt: Para representar números inteiros muito grandes, maiores do que o Number pode manipular.
